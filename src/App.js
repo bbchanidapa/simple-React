@@ -5,14 +5,31 @@ import NavbarContainer from './Navbar'
 import FooterConatiner from './Footer'
 import ContentContainer from './Content'
 import CardContainer from './Card'
+import data from './../src/data.json'
 
 class App extends Component {
+  constructor(props){
+    super(props)
+  }
+
+  componentDidMount(){
+
+  }
+
+  card = () => {
+    return (
+      data.map((item)=>{
+        return <CardContainer {...item}/>
+      }) 
+    )
+  }
+
   render() {
     return (
       <div>
         <NavbarContainer />
         <ContentContainer />
-        <CardContainer />
+        {this.card()}
         <FooterConatiner />
       </div>
     )

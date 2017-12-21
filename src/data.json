@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "Borbee",
+    "pic": "https://scontent.fbkk1-4.fna.fbcdn.net/v/t1.0-9/23167891_1526105204148575_4895764993656923241_n.jpg?_nc_fx=fbkk1-6&oh=b47c83640d23347bbfab090ff77130dd&oe=5ABEC6A5",
+    "description": "Setting the width of the element will prevent it from stretching out to the edges of its container."
+  },
+  {
+    "id": 2,
+    "name": "Konger",
+    "pic": "https://i.pinimg.com/originals/ce/9a/91/ce9a915dccfe4161017036afa8c8302b.jpg",
+    "description": "The element will then take up the specified width, and the remaining space will be split equally between."
+  }
+]

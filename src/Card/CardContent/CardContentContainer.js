@@ -5,7 +5,7 @@ class CardContentContainer extends Component {
     return (
       <div>
         <p style={{color: 'pink', fontSize: 10}}>
-          CardContentContainer
+          {this.props.description}
         </p>
       </div>
     )

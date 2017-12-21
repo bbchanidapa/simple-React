@@ -4,9 +4,7 @@ class ImagesContainer extends Component {
   render() {
     return (
       <div>
-        <p style={{color: 'pink', fontSize: 10}}>
-          ImagesContainer
-        </p>
+        <img src={this.props.pic} style={{width: "50px"}}/>
       </div>
     )
   }
