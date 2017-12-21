@@ -13,7 +13,6 @@ class CardContainer extends Component {
 
   render() {
     const {id, name, pic, description} = this.props
-    console.log(this.props)
     return (
       <div style={{
         backgroundColor: 'blue', 
