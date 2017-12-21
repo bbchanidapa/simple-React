@@ -11,8 +11,8 @@ class App extends Component {
     return (
       <div>
         <NavbarContainer />
-        <CardContainer />
         <ContentContainer />
+        <CardContainer />
         <FooterConatiner />
       </div>
     )
