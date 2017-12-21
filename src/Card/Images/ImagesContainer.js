@@ -4,7 +4,7 @@ class ImagesContainer extends Component {
   render() {
     return (
       <div>
-        <img src={this.props.pic} style={{width: "50px"}}/>
+        <img src={this.props.image} style={{width: "50px", height: "50px"}}/>
       </div>
     )
   }
